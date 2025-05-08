@@ -1,7 +1,8 @@
 nomes={ 
+    "index.html":"INÍCIO",
+    "":"INÍCIO",
     "historia.html":"HISTÓRIA", 
     "personagens.html":"PERSONAGENS", 
-    "index.html":"INÍCIO",
     "areas.html":"ÁREAS"
 };
 
