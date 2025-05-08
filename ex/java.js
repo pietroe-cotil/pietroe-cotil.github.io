@@ -1,5 +1,5 @@
 nomes={ 
-    "index.html":"INÍCIO",
+    "index.html":"giasf",
     "":"INÍCIO",
     "historia.html":"HISTÓRIA", 
     "personagens.html":"PERSONAGENS", 
