@@ -2,8 +2,11 @@ nomes={
     "index.html":"INÍCIO",
     "":"INÍCIO",
     "historia.html":"HISTÓRIA", 
+    "historia":"HISTÓRIA", 
     "personagens.html":"PERSONAGENS", 
-    "areas.html":"ÁREAS"
+    "personagens":"PERSONAGENS", 
+    "areas.html":"ÁREAS",
+    "areas":"ÁREAS"
 };
 
 nome = window.location.pathname.split("/").pop();
