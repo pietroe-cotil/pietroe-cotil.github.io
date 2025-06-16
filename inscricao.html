@@ -9,7 +9,41 @@
 	<script src="ex/java.js"></script>
 </head>
 <body>
-	<div class="mainbg">
-	</div>
+	<div class="textbox">
+		<p align="center">NOTÍCIAS UNDERTALE</p>
+	</div><br>
+	<div class="textbox">
+		<p>
+			* Você gostaria de ser notificado sobre notícias de UNDERTALE? Preencha o formulário abaixo:
+		</p>
+	</div><br><br>
+
+	<form>
+		<fieldset>
+			<label for="nome">Nome</label><br>
+			<input type="text" size="50" maxlength="50" minlength="3" required name="nome" id="nome"><br><br>
+
+			<label for="email">E-mail</label><br>
+			<input type="email" size="50" maxlength="100" minlength="5" required name="email" id="email"><br><br>
+
+			<label for="nivel">Nível de Notícias</label><br>
+			<select name="nivel" id="nivel" required>
+				<option value="Importantes">Importantes</option>
+				<option value="Atualizações" selected>Atualizações</option>
+				<option value="Todas">Todas</option>
+			</select>
+
+			<label for="jogou">Já jogou Undertale?</label><br>
+			<input type="radio" id="jogou" name="jogou" value="S" checked>Sim
+			<input type="radio" id="jogou" name="jogou" value="N" checked>Não<br><br>
+
+			<label for="telefone">Telefone</label><br>
+			<input type="tel" name="telefone" id="telefone"><br><br>
+		</fieldset>
+
+		<br><br>
+
+		<input type="submit" name="btn1" value="Cadastrar">
+	</form>
 </body>
 </html>
