@@ -6,7 +6,9 @@ nomes={
     "personagens.html":"PERSONAGENS", 
     "personagens":"PERSONAGENS", 
     "areas.html":"ÁREAS",
-    "areas":"ÁREAS"
+    "areas":"ÁREAS",
+    "inscricao":"INSCRIÇÃO",
+    "inscricao.html":"INSCRIÇÃO",
 };
 
 nome = window.location.pathname.split("/").pop();
