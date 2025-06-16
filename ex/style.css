@@ -91,3 +91,12 @@ a:visited {
 .button:active {
     color:#ffdc15;
 }
+
+fieldset{
+    outline-width:4px;
+    outline-color:white;
+    outline-style:solid;
+    background-color:black;
+    font-size:36px;
+    margin:6px;
+}
