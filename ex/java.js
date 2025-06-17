@@ -5,8 +5,8 @@ nomes={
     "historia":"HISTÓRIA", 
     "personagens.html":"PERSONAGENS", 
     "personagens":"PERSONAGENS", 
-    "areas.html":"ÁREAS",
-    "areas":"ÁREAS",
+    "roteiro.html":"ROTEIRO",
+    "roteiro":"ROTEIRO",
     "inscricao":"INSCRIÇÃO",
     "inscricao.html":"INSCRIÇÃO",
 };
