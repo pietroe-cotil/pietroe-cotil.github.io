@@ -92,6 +92,19 @@ a:visited {
     color:#ffdc15;
 }
 
+input[type="text"] {
+    font-family: '8bitoperator';
+    background-color:black;
+    outline-width:4px;
+    outline-color:white;
+    outline-style:solid;
+    color:white;
+}
+
+input[type="text"]:focus {
+    color:yellow;
+}
+
 fieldset{
     outline-width:4px;
     outline-color:white;
@@ -99,3 +112,4 @@ fieldset{
     background-color:black;
     margin:6px;
 }
+
