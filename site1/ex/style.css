@@ -92,19 +92,45 @@ a:visited {
     color:#ffdc15;
 }
 
-input[type="text"] {
+input[type="text"], input[type="email"], input[type="tel"],select {
     font-family: '8bitoperator';
     background-color:black;
-    outline-width:2px;
+    outline-width:3px;
     outline-color:white;
     outline-style:solid;
-    padding-top:5px;
-    padding-bottom:5px;
+    border:none;
+    margin-top:5px;
+    margin-bottom:5px;
     color:white;
 }
 
-input[type="text"]:focus {
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
     color:yellow;
+    outline-color:yellow;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="tel"]:hover, select:hover {
+    outline-color:yellow;
+}
+
+input[type="radio"] {
+    display:inline-block;
+    background-color:black;
+    appearance:none;
+    
+    outline-width:2px;
+    outline-color:white;
+    outline-style:solid;
+
+    margin-right:5px;
+
+    height:1em;
+    width:1em;
+}
+
+input[type="radio"]:hover {
+    outline-color:yellow;
+    color: yellow;
 }
 
 fieldset{
