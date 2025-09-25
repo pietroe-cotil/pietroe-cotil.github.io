@@ -114,9 +114,17 @@ input[type="text"]:hover, input[type="email"]:hover, input[type="tel"]:hover, se
 }
 
 input[type="radio"] {
+    appearance:none;
+}
+
+input[type="radio"]::before {
+    font-family: '8bitoperator';
+    text-align:center;
+    content:'X';
+    color:black;
+    
     display:inline-block;
     background-color:black;
-    appearance:none;
     
     outline-width:2px;
     outline-color:white;
@@ -128,9 +136,48 @@ input[type="radio"] {
     width:1em;
 }
 
-input[type="radio"]:hover {
+input[type="radio"]:hover::before {
+    outline-color:yellow;
+    color: black;
+    content:'X';
+}
+
+input[type="radio"]:checked::before {
     outline-color:yellow;
     color: yellow;
+    content:'X';
+}
+
+input[type="submit"] {
+    border:none;
+    
+    outline-width:5px;
+    outline-color:#ff8015;
+    outline-style:solid;
+    
+    color:#ff8015;
+    font-family: 'mercy';
+    outline-style:solid;
+    background-color:black;
+    
+    padding:20px;
+
+    margin: 0px 0px;
+    
+    font-size:32px;
+    vertical-align:center;
+    height: 50px;
+    text-decoration:none;
+    padding:3px;
+}
+
+input[type="submit"]:link, input[type="submit"]:visited {
+    color:#ff8015;
+    outline-color:#ff8015;
+}
+input[type="submit"]:hover, input[type="submit"]:active {
+    color:#ffdc15;
+    outline-color:#ffdc15;
 }
 
 fieldset{
@@ -139,6 +186,5 @@ fieldset{
     outline-style:solid;
     background-color:black;
     margin:6px;
+    border:none;
 }
-
-
