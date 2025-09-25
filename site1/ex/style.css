@@ -188,3 +188,13 @@ fieldset{
     margin:6px;
     border:none;
 }
+
+.indent {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.title {
+    margin-left:30%;
+    margin-right:30%;
+}
