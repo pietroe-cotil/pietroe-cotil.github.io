@@ -198,3 +198,17 @@ fieldset{
     margin-left:30%;
     margin-right:30%;
 }
+
+ul {
+    list-style-type:none;
+    background:none;
+}
+
+li {
+    outline-width:4px;
+    outline-color:white;
+    outline-style:solid;
+    background-color:black;
+    font-size:36px;
+    margin:6px;
+}
