@@ -50,7 +50,7 @@ body{
     outline-style:solid;
     background-color:black;
     font-size:36px;
-    margin:6px;
+    margin:auto 6px;
 }
 
 a:link {
@@ -185,10 +185,9 @@ fieldset{
     outline-color:white;
     outline-style:solid;
     background-color:black;
-    margin:6px;
+    margin:auto;
     border:none;
-    margin-left: 25%;
-    margin-right: 25%;
+    max-width: 50%;
 }
 
 .indent {
@@ -215,3 +214,4 @@ li {
     margin:6px;
 
 }
+
