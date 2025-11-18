@@ -55,6 +55,7 @@ body{
 
 a:link {
     color:#ffdc15;
+    text-shadow: 0px 1px 5px #ffdc15;
 }
 
 a:visited {
@@ -72,6 +73,7 @@ a:visited {
     margin-bottom:6px;
     margin-left:16px;
     margin-right:16px;
+    text-shadow: 0px 0px black;
     font-size:40px;
     vertical-align:center;
     height: 50px;
@@ -81,6 +83,7 @@ a:visited {
 
 .button:link {
     color:#ff8015;
+    text-shadow: 0px 0px black;
 }
 .button:visited {
     color:#ff8015;
