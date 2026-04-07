@@ -1,0 +1,144 @@
+    body {
+        background-color: black;
+        color: white; 
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    h1{
+        color: #3bf815;
+        text-decoration: underline;
+    }
+
+    footer {
+        border-top: 2px solid #6607ff;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .card-img-top {
+        height: 220px;
+        object-fit: cover;
+        border-bottom: 2px solid #ffc107;
+    }
+
+    .fundo-texto {
+        background-color: rgba(0,0,0,0.6);
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+
+    .card-autobot {
+        transition: 0.3s;
+    }
+
+    .card-autobot:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px red, 0 0 30px darkred;
+    }
+
+    .card-decepticon {
+        transition: 0.3s;
+    }
+
+    .card-decepticon:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px purple, 0 0 30px indigo;
+    }
+    .link-woc {
+        color: #e9db1a;
+        text-decoration: none;
+    }
+
+    .link-woc:hover {
+       color: white;
+    }
+
+    .link-foc {
+        color: #f17f13;
+        text-decoration: none;
+    }
+
+    .link-foc:hover {
+        color: white;
+    }
+
+    .link-moon {
+        color: #204fe9;
+        text-decoration: none;
+    }
+
+    .link-moon:hover {
+        color: white;
+    }
+
+    .link-roxo {
+        color: #7324f3;
+        text-decoration: none;
+    }
+
+    .link-roxo:hover {
+        color: white;
+    }
+
+    .link-vermelho {
+        color: #f71414;
+        text-decoration: none;
+    }
+
+    .link-vermelho:hover {
+        color: white;
+    }
+
+    .link-ciano {
+        color: #14c2f7;
+        text-decoration: none;
+    }
+
+    .link-ciano:hover {
+        color: white;
+    }
+
+    .link-activision {
+        color: rgba(148, 150, 151, 0.863);
+        text-decoration: none;
+    }
+
+    .link-activision:hover{
+        color: white;
+    }
+
+    .transformers{
+        color: #f17f13;
+    }
+
+    .verde{
+        color: #3bf815;
+    }
+
+    .azul {
+        color: #1d8fec;
+    }
+
+    .cinza {
+        color: gray
+    }
+
+    .wof {
+        color: #aca43e;
+    }
+
+    .foc {
+        color: #be6511;
+    }

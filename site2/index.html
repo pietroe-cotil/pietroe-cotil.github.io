@@ -3,114 +3,502 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Projeto HTML 2026</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Transformers</title>
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-      body {
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-      }
-
-      .dropdown-item:hover {
-        background-color: #49535e;
-      }
-
-      .bg-darker {
-        background-color: #16191b;
-      }
-    </style>
   </head>
+  <body>
 
-  <body class="bg-dark text-light">
-    <nav class="navbar navbar-expand-lg bg-darker">
-        <div class="container-fluid">
-            <a class="navbar-brand text-primary fw-bold" href="#">FILMES</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#">Início</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-light" href="cartaz">Em cartaz</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-light" href="breve">Em breve</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Gêneros
-                </a>
-                <ul class="dropdown-menu bg-dark">
-                    <li><a class="dropdown-item bi bi-emoji-angry-fill text-light" href="acao"> Ação</a></li>
-                    <li><a class="dropdown-item bi bi-emoji-heart-eyes-fill text-light" href="romance"> Romance</a></li>
-                    <li><a class="dropdown-item bi bi-emoji-grin-fill text-light" href="comedia"> Comédia</a></li>
-                    <li><a class="dropdown-item bi bi-emoji-dizzy-fill text-light" href="terror"> Terror</a></li>
-                </ul>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand transformers" href="#">TRANSFORMERS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active bi bi-robot" aria-current="page" href="#"> Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bi bi-bookmark-check" href="#sobre"> Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link bi bi-card-text" href="#comprar"> Comprar</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/img5.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="fundo-texto">
+                TRANSFORMERS DUOLOGIA:<br>
+                <a href="https://pt.wikipedia.org/wiki/High_Moon_Studios" 
+                    class="link-moon"
+                    target="_blank">
+                    High Moon Studios</a>
+                </h5>
+                <p class="fundo-texto" >Venha se apronfundar na historia, gameplay e curiosidas de 
+                    <a href="https://en.wikipedia.org/wiki/Transformers:_War_for_Cybertron"
+                        class="link-woc"
+                        target="_blank">
+                    Transformers War For Cybertron</a>
+                    e <a href="https://en.wikipedia.org/wiki/Transformers:_Fall_of_Cybertron"
+                        class="link-foc"
+                        target="_blank">
+                    Transformers Fall For Cybertron</a></p>
+                    <div class="container mt-4">
+                    <div class="alert alert-warning text-center text-danger">
+                       Promoção! Transformers com 50% de desconto!!! Ambos por menos de
+                       <span class="badge bg-success">R$ 99,90</span>
+                    </div>
+                  </div>
+                    <a href="#comprar" class="btn btn-danger w-100 mt-2">
+                        Comprar agora!
+                    </a>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="img/img6.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="fundo-texto">Jogue Com Os 
+                <a href="https://tfwiki-net.translate.goog/wiki/Decepticon?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc"
+                class="link-roxo"
+                target="_blank">
+                DECEPTICONS</a></h5>
+                <p class="fundo-texto">Conquiste 
+                <a href="https://transformers.fandom.com/pt-br/wiki/Cybertron"
+                    class="link-ciano"
+                    target="_blank">CYBERTRON</a>
+                E Destrua Os
+                <a href="https://tfwiki.net/wiki/Autobot"
+                    class="link-vermelho"
+                    target="_blank">
+                AUTOBOTS</a>
+                Sem Piedade</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="img/img3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 class="fundo-texto">Jogue Com Os 
+                <a href="https://tfwiki.net/wiki/Autobot"
+                    class="link-vermelho"
+                    target="_blank">
+                AUTOBOTS</a></h5>
+                <p class="fundo-texto">Salve 
+                <a href="https://transformers.fandom.com/pt-br/wiki/Cybertron"
+                    class="link-ciano"
+                    target="_blank">CYBERTRON
+                </a>Dos 
+                <a href="https://tfwiki-net.translate.goog/wiki/Decepticon?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc"
+                    class="link-roxo"
+                    target="_blank">
+                DECEPTICONS</a>
+                </p>
+            </div>
             </div>
         </div>
-    </nav>
-
-    <br>
-
-    <h1 class="text-center">Sugestões</h1>
-
-    <br>
-
-    <div id="carouselExampleCaptions" class="carousel slide" style="height:50vh">
-      <div class="carousel-inner h-100">
-        <div class="carousel-item active w-100 h-100 object-fit-cover">
-          <img src="img/1.jpg" class="d-block w-100" alt="Five Nights at Freddy's 2">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Five Nights at Freddy's 2</h5>
-            <p>Um ano após o pesadelo sobrenatural na Freddy Fazbear's Pizza, Abby foge para se reconectar com seus amigos animatrônicos, 
-              revelando segredos obscuros sobre a verdadeira origem da Freddy's e libertando um horror escondido há décadas.</p>
-          </div>
-        </div>
-        <div class="carousel-item w-100 h-100 object-fit-cover">
-          <img src="img/2.jpg" class="d-block w-100" alt="Iron Lung">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Iron Lung</h5>
-            <p>Baseado no jogo homônimo.</p>
-          </div>
-        </div>
-        <div class="carousel-item w-100 h-100 object-fit-cover">
-          <img src="img/3.jpg" class="d-block w-100" alt="Matrix">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Matrix</h5>
-            <p>Um hacker aprende com os misteriosos rebeldes sobre a verdadeira natureza de sua realidade e seu papel na guerra contra seus controladores.</p>
-          </div>
-        </div>
-        <div class="carousel-item w-100 h-100 object-fit-cover">
-          <img src="img/4.jpg" class="d-block w-100" alt="Fight Club">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Fight Club</h5>
-            <p>Um trabalhador de escritório e um fabricante de sabonetes formam um clube de luta clandestino que evolui para algo muito maior.</p>
-          </div>
-        </div>
-        <div class="carousel-item w-100 h-100 object-fit-cover">
-          <img src="img/5.jpg" class="d-block w-100" alt="Interstellar">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Interstellar</h5>
-            <p>Uma equipe de exploradores viaja através de um buraco de minhoca no espaço, na tentativa de garantir a sobrevivência da humanidade.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Proximo</span>
+        </button>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <br>
+
+    <div class="container mt-5">
+        <h2 class="fundo-texto">Desenvolvimento dos Jogos</h2>
+
+        <p class="fundo-texto mt-3">
+            Os jogos 
+            <a href="https://en.wikipedia.org/wiki/Transformers:_War_for_Cybertron"
+                class="link-woc"
+                target="_blank">
+            Transformers War For Cybertron</a> 
+            e 
+           <a href="https://en.wikipedia.org/wiki/Transformers:_Fall_of_Cybertron"
+                class="link-foc"
+                target="_blank">
+            Transformers Fall For Cybertron</a> 
+            foram desenvolvidos pela 
+            <a href="https://pt.wikipedia.org/wiki/High_Moon_Studios" 
+                    class="link-moon"
+                    target="_blank">
+                    High Moon Studios</a>
+            , e publicado pela
+            <a href="https://pt.wikipedia.org/wiki/Activision" 
+                    class="link-activision"
+                    target="_blank">
+                    Activision</a>
+            , empresa responsável pela franquia Transformers.
+        </p>
+
+        <p class="fundo-texto">
+            Lançado em 2010, 
+            <a href="https://en.wikipedia.org/wiki/Transformers:_War_for_Cybertron"
+                class="link-woc"
+                target="_blank">
+            Transformers War For Cybertron</a> apresenta o início da guerra em Cybertron, trazendo uma narrativa mais séria e mecânicas inovadoras, como a transformação em tempo real durante as batalhas.
+        </p>
+
+        <p class="fundo-texto">
+            Já <a href="https://en.wikipedia.org/wiki/Transformers:_Fall_of_Cybertron"
+                class="link-foc"
+                target="_blank">
+            Transformers Fall For Cybertron</a>
+            , lançado em 2012, continua diretamente a história, mostrando a queda do planeta e o desfecho da guerra. O jogo trouxe melhorias gráficas, jogabilidade mais refinada e habilidades únicas para cada personagem.
+        </p>
+
+        <p class="fundo-texto">
+            Juntos, os dois jogos formam uma duologia muito elogiada, destacando-se pela história envolvente, ação intensa e fidelidade ao universo Transformers.
+        </p>
+    </div>
+
+    <br>
+
+    <h1>PERSONAGENS PRINCIPAIS:</h1>
+
+    <br>
+
+    <div class="container mt-5" id="sobre">
+  <div class="row">
+
+    <!-- AUTOBOTS -->
+    <div class="col-md-6">
+      <h3 class="text-center text-danger">AUTOBOTS</h3>
+
+      <!-- CARD 1 -->
+      <div class="card mb-3 bg-dark text-white card-autobot">
+        <img src="img/prime.jpg" class="card-img-top">
+
+        <div class="card-body">
+          <h5>Optimus Prime</h5>
+
+          <div class="accordion" id="acc1">
+            <div class="accordion-item">
+              <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#info1">
+                Ver detalhes
+              </button>
+
+              <div id="info1" class="accordion-collapse collapse" data-bs-parent="#acc1">
+                <div class="accordion-body">
+                Líder dos Autobots, Optimus Prime é conhecido por sua coragem,
+                    sabedoria e senso de justiça.
+                        Ele luta para proteger Cybertron e outros planetas, sempre colocando seus aliados em primeiro lugar.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <br>
+
+      <!-- CARD 2 -->
+      <div class="card mb-3 bg-dark text-white card-autobot">
+        <img src="img/bum.jpg" class="card-img-top">
+            
+        <div class="card-body">
+           
+
+          <h5>Bumblebee</h5>
+
+          <div class="accordion" id="acc2">
+            <div class="accordion-item">
+              <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#info2">
+                Ver detalhes
+              </button>
+
+              <div id="info2" class="accordion-collapse collapse" data-bs-parent="#acc2">
+                <div class="accordion-body">
+                  Bumblebee é um dos Autobots mais leais e ágeis.
+                   Apesar de ser menor que outros robôs,
+                    ele se destaca pela velocidade,
+                     coragem e forte ligação com humanos.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <br>
+
+      <!-- CARD 3 -->
+      <div class="card mb-3 bg-dark text-white card-autobot">
+        <img src="img/ratchet.webp" class="card-img-top">
+
+        <div class="card-body">
+          <h5>Ratchet</h5>
+
+          <div class="accordion" id="acc3">
+            <div class="accordion-item">
+              <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#info3">
+                Ver detalhes
+              </button>
+
+              <div id="info3" class="accordion-collapse collapse" data-bs-parent="#acc3">
+                <div class="accordion-body">
+                  Ratchet é o médico dos Autobots.
+                   Inteligente e experiente,
+                    ele é responsável por reparar e cuidar dos outros robôs,
+                     sendo essencial para a sobrevivência da equipe.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <br>
+
+      <!-- CARD 4 -->
+      <div class="card mb-3 bg-dark text-white card-autobot">
+        <img src="img/grim.jpg" class="card-img-top">
+
+        <div class="card-body">
+          <h5>Grimlock</h5>
+
+          <div class="accordion" id="acc4">
+            <div class="accordion-item">
+              <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#info4">
+                Ver detalhes
+              </button>
+
+              <div id="info4" class="accordion-collapse collapse" data-bs-parent="#acc4">
+                <div class="accordion-body">
+                  Grimlock é um poderoso guerreiro Autobot que se transforma em dinossauro.
+                   Ele é extremamente forte e gosta de combate direto,
+                    muitas vezes agindo mais pela força do que pela estratégia.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    
+    <br>
+
+    <!-- DECEPTICONS -->
+    <div class="col-md-6">
+      <h3 class="text-center" style="color: purple;">DECEPTICONS</h3>
+
+      <!-- CARD -->
+      <div class="card mb-3 bg-dark text-white card-decepticon">
+        <img src="img/Megatron.jpg" class="card-img-top">
+
+        <div class="card-body">
+          <h5>Megatron</h5>
+
+          <div class="accordion" id="acc5">
+            <div class="accordion-item">
+              <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#info5">
+                Ver detalhes
+              </button>
+
+              <div id="info5" class="accordion-collapse collapse" data-bs-parent="#acc5">
+                <div class="accordion-body">
+                  Líder dos Decepticons,
+                   Megatron é poderoso,
+                    cruel e determinado a conquistar Cybertron.
+                     Ele acredita que a força é a única forma de governar e está sempre em conflito direto com Optimus Prime.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <br>
+
+      <!-- CARD -->
+      <div class="card mb-3 bg-dark text-white card-decepticon">
+        <img src="img/Starscream.webp" class="card-img-top">
+
+        <div class="card-body">
+          <h5>Starscrea</h5>
+
+          <div class="accordion" id="acc6">
+            <div class="accordion-item">
+              <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#info6">
+                Ver detalhes
+              </button>
+
+              <div id="info6" class="accordion-collapse collapse" data-bs-parent="#acc6">
+                <div class="accordion-body">
+                  Starscream é ambicioso e traiçoeiro.
+                   Ele serve a Megatron,
+                    mas vive tentando tomar seu lugar como líder dos Decepticons.
+                     Apesar disso,
+                      é um excelente combatente aéreo.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <br>
+
+      <!-- CARD -->
+      <div class="card mb-3 bg-dark text-white card-decepticon">
+        <img src="img/sound.jpg" class="card-img-top">
+
+        <div class="card-body">
+          <h5>Soundwave</h5>
+
+          <div class="accordion" id="acc7">
+            <div class="accordion-item">
+              <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#info7">
+                Ver detalhes
+              </button>
+
+              <div id="info7" class="accordion-collapse collapse" data-bs-parent="#acc7">
+                <div class="accordion-body">
+                  Soundwave é leal e silencioso,
+                   sendo o principal espião dos Decepticons.
+                    Ele utiliza tecnologia avançada para espionagem e comunicação,
+                     além de controlar outros robôs menores.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <br>
+
+      <!-- CARD -->
+      <div class="card mb-3 bg-dark text-white card-decepticon">
+        <img src="img/shock.jpg" class="card-img-top">
+
+        <div class="card-body">
+          <h5>Shockwave</h5>
+
+          <div class="accordion" id="acc8">
+            <div class="accordion-item">
+              <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#info8">
+                Ver detalhes
+              </button>
+
+              <div id="info8" class="accordion-collapse collapse" data-bs-parent="#acc8">
+                <div class="accordion-body">
+                  Shockwave é frio, lógico e extremamente inteligente.
+                   Ele age com base na ciência e na razão,
+                    realizando experimentos e estratégias para garantir a vitória dos Decepticons.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <br>
+
+  </div>
+</div>
+    <div class="container mt-5 mb-5" id="comprar">
+        <h2 class="text-center mb-4 verde">Comprar Jogo</h2>
+
+        <form class="needs-validation fundo-texto p-4" novalidate>
+
+            <div class="mb-3 text-start">
+            <label class="form-label">Nome:</label>
+            <input type="text" class="form-control" required>
+            <div class="invalid-feedback">Digite seu nome</div>
+            </div>
+
+            <div class="mb-3 text-start">
+            <label class="form-label">Email:</label>
+            <input type="email" class="form-control" required>
+            <div class="invalid-feedback">Digite um email válido</div>
+            </div>
+
+            <div class="mb-3 text-start">
+            <label class="form-label">Escolha o jogo:</label>
+            <select class="form-select" required>
+                <option value="">Selecione...</option>
+                <option class="wof">Transformers War for Cybertron R$ 29,90</option>
+                <option class="foc">Transformers Fall of Cybertron R$ 49,90</option>
+            </select>
+            <div class="invalid-feedback">Selecione um jogo</div>
+            </div>
+
+            <div class="mb-3 text-start">
+            <label class="form-label">Plataforma:</label>
+            <select class="form-select" required>
+                <option value="">Selecione...</option>
+                <option class="cinza">PC</option>
+                <option class="azul">PlayStation</option>
+                <option class="verde">Xbox</option>
+            </select>
+            <div class="invalid-feedback">Escolha a plataforma</div>
+            </div>
+
+            <button class="btn btn-warning w-100 mt-3" type="submit">
+            Finalizar Compra
+            </button>
+
+    </form>
+    </div>
+
+
+
+
+
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p>© 2026 Transformers Site</p>
+        <p>
+         Desenvolvido por Pedro Vieira Barrote e Pietro Elvin Dos Santos Ludtke
+        </p>
+      </footer>
+    <script>
+        (() => {
+        const forms = document.querySelectorAll('.needs-validation');
+
+        forms.forEach(form => {
+            form.addEventListener('submit', e => {
+            if (!form.checkValidity()) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+            form.classList.add('was-validated');
+            });
+        });
+        })();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
